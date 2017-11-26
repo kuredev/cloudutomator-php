@@ -1,0 +1,74 @@
+{
+  "post.aws_accounts": {
+    "method": "POST",
+    "path": "aws_accounts"
+  },
+  "get.aws_accounts": {
+    "method": "GET",
+    "path": "aws_accounts"
+  },
+  "get.aws_account": {
+    "method": "GET",
+    "path": "aws_accounts/:id"
+  },
+  "patch.aws_account": {
+    "method": "PATCH",
+    "path": "aws_accounts/:id"
+  },
+  "delete.aws_account": {
+    "method": "DELETE",
+    "path": "aws_accounts/:id"
+  },
+  "post.jobs": {
+    "method": "POST",
+    "path": "jobs"
+  },
+  "get.jobs": {
+    "method": "GET",
+    "path": "jobs"
+  },
+  "get.job": {
+    "method": "GET",
+    "path": "jobs/:id"
+  },
+  "patch.jobs": {
+    "method": "PATCH",
+    "path": "jobs/:id"
+  },
+  "delete.jobs": {
+    "method": "DELETE",
+    "path": "jobs/:id"
+  },
+  "get.logs": {
+    "method": "GET",
+    "path": "logs"
+  },
+  "get.log": {
+    "method": "GET",
+    "path": "logs/:id"
+  },
+  "get.logs_resource_operation_results": {
+    "method": "GET",
+    "path": "logs/:id/resource_operation_results"
+  },
+  "post.post_processes": {
+    "method": "POST",
+    "path": "post_processes"
+  },
+  "GET.post_processes": {
+    "method": "GET",
+    "path": "post_processes"
+  },
+  "GET.post_processe": {
+    "method": "GET",
+    "path": "post_processes/:id"
+  },
+  "PATCH.post_processes": {
+    "method": "PATCH",
+    "path": "post_processes/:id"
+  },
+  "DELETE.post_processes": {
+    "method": "DELETE",
+    "path": "post_processes/:id"
+  }
+}

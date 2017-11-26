@@ -1,0 +1,24 @@
+{
+  "name": "kuredev/cloudautomator-php",
+  "type": "library",
+  "description": "PHP Wrapper for Cloud Automator API",
+  "homepage": "https://github.com/kuredev/cloudautomator-php",
+  "keywords": ["cloud automator"],
+  "authors": [
+    {
+      "name": "kuredev",
+      "email": "kuredev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "palanik/wrapi": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kuredev\\": "src"
+    }
+  },
+  "license": "MIT"
+}
+
