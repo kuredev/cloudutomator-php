@@ -18,7 +18,7 @@ $accountArr = array(
     "name" => "xxx",
     "account_number" => "12345678910",
     "access_key_id" => "xxxxx",
-    "secret_access_key" => "xxxx+R2WaUl9z5b7efTvEv6f"
+    "secret_access_key" => "xxxxxxxxxx"
 );
 var_dump($ca->post->aws_accounts(json_encode($accountArr)));
 ```
