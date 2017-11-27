@@ -27,7 +27,10 @@ var_dump($ca->post->aws_accounts(json_encode($accountArr)));
 ```
     
 ## Install
-composer install kuredev/cloudautomator-php
+
+```
+$ composer install kuredev/cloudautomator-php
+```
 
 ## Licence
 
