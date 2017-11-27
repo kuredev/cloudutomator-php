@@ -12,6 +12,9 @@ PHP Wrapper for Cloud Automator API
 
 ```php
 <?php
+require_once "vendor/autoload.php";
+$ca = new \Kuredev\CA("[CloudAutomatorAccessKey]");
+
 var_dump($ca->get->aws_accounts());
 var_dump($ca->get->aws_account(xxx));
 $accountArr = array(
